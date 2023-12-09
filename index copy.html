@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Rýmovanda 2</title>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/SochavaAG/example-mycode/master/_common/css/reset.css">
+    <link rel="stylesheet" href="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_plugins/slick/slick.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_plugins/slick/slick.min.js"></script>
+</head>
+<body>
+
+<div class="ag-carousel-block">
+  
+    <div class="ag-format-container">
+      <div class="ag-carousel-arrow_box">
+        <i class="js-ag-carousel-arrow_prev ag-carousel-arrow">
+          <svg class="svg-arrow-left">
+            <use xlink:href="#ag-arrow-left"></use>
+          </svg>
+        </i>
+  
+        <i class="js-ag-carousel-arrow_next ag-carousel-arrow">
+          <svg class="svg-arrow-right">
+            <use xlink:href="#ag-arrow-right"></use>
+          </svg>
+        </i>
+      </div>
+    </div>
+  
+    <div class="ag-carousel_box">
+      <ul id="js-carousel" class="js-carousel ag-carousel_list">
+        <li class="ag-carousel_item">
+          <a href="#">
+            <figure class="ag-carousel_figure">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-1.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Lorem ipsum
+              </div>
+              <div class="ag-carousel_doctor">
+                Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque
+              </div>
+            </div>
+          </a>
+        </li>
+  
+        <li class="ag-carousel_item">
+          <a href="#">
+            <figure class="ag-carousel_figure">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-2.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Aenean massa
+              </div>
+              <div class="ag-carousel_doctor">
+                Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet
+              </div>
+            </div>
+          </a>
+        </li>
+  
+        <li class="ag-carousel_item">
+          <a href="#">
+            <figure class="ag-carousel_figure">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-3.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Donec quam
+              </div>
+              <div class="ag-carousel_doctor">
+                Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus
+              </div>
+            </div>
+          </a>
+        </li>
+  
+        <li class="ag-carousel_item">
+          <a href="#">
+            <figure class="ag-carousel_figure">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-4.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Nulla consequat
+              </div>
+              <div class="ag-carousel_doctor">
+                Deras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus
+              </div>
+            </div>
+          </a>
+        </li>
+  
+        <li class="ag-carousel_item">
+          <a href="#">
+            <figure class="ag-carousel_figure">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-5.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Nullam dictum
+              </div>
+              <div class="ag-carousel_doctor">
+                Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo
+              </div>
+            </div>
+          </a>
+        </li>
+  
+        <li class="ag-carousel_item">
+          <a href="#">
+            <figure class="ag-carousel_figure">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-6.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Aliquam lorem
+              </div>
+              <div class="ag-carousel_doctor">
+                Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim
+              </div>
+            </div>
+          </a>
+        </li>
+  
+        <li class="ag-carousel_item">
+          <a href="#">
+            <figure class="ag-carousel_figure">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-7.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Etiam ultricies
+              </div>
+              <div class="ag-carousel_doctor">
+                Cum sociis natoque penatibus et magnis dis parturient montes
+              </div>
+            </div>
+          </a>
+        </li>
+  
+        <li class="ag-carousel_item">
+          <a href="#">
+            <figure class="ag-carousel_figure">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-8.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Nullam quis ante
+              </div>
+              <div class="ag-carousel_doctor">
+                Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue
+              </div>
+            </div>
+          </a>
+        </li>
+  
+        <li class="ag-carousel_item">
+          <a href="#">
+            <figure class="ag-carousel_figure">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-9.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Duis leo
+              </div>
+              <div class="ag-carousel_doctor">
+                Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero
+              </div>
+            </div>
+          </a>
+        </li>
+  
+        <li class="ag-carousel_item">
+          <a href="#">
+            <figure class="ag-carousel_figure">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-10.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Donec vitae
+              </div>
+              <div class="ag-carousel_doctor">
+                Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="ag-carousel_item">
+          <a href="#">
+            <figure class="ag-carousel_figure">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-11.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Lorem ipsum
+              </div>
+              <div class="ag-carousel_doctor">
+                Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque
+              </div>
+            </div>
+          </a>
+        </li>
+  
+        <li class="ag-carousel_item">
+          <a href="#">
+            <figure class="ag-carousel_figure">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-12.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Aenean massa
+              </div>
+              <div class="ag-carousel_doctor">
+                Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet
+              </div>
+            </div>
+          </a>
+        </li>
+  
+        <li class="ag-carousel_item">
+          <a href="#">
+            <figure class="ag-carousel_figure">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-13.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Donec quam
+              </div>
+              <div class="ag-carousel_doctor">
+                Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus
+              </div>
+            </div>
+          </a>
+        </li>
+  
+        <li class="ag-carousel_item">
+          <a href="#">
+            <figure class="ag-carousel_figure">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-14.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Nulla consequat
+              </div>
+              <div class="ag-carousel_doctor">
+                Deras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus
+              </div>
+            </div>
+          </a>
+        </li>
+  
+        <li class="ag-carousel_item">
+          <a href="#">
+            <figure class="ag-carousel_figure">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-15.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Nullam dictum
+              </div>
+              <div class="ag-carousel_doctor">
+                Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo
+              </div>
+            </div>
+          </a>
+        </li>
+  
+        <li class="ag-carousel_item">
+          <a href="#">
+            <figure class="ag-carousel_figure">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-16.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Aliquam lorem
+              </div>
+              <div class="ag-carousel_doctor">
+                Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim
+              </div>
+            </div>
+          </a>
+        </li>
+  
+        <li class="ag-carousel_item">
+          <a href="#">
+            <figure class="ag-carousel_figure">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-17.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Etiam ultricies
+              </div>
+              <div class="ag-carousel_doctor">
+                Cum sociis natoque penatibus et magnis dis parturient montes
+              </div>
+            </div>
+          </a>
+        </li>
+  
+        <li class="ag-carousel_item">
+          <a href="#">
+            <figure class="ag-carousel_figure">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-18.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Nullam quis ante
+              </div>
+              <div class="ag-carousel_doctor">
+                Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue
+              </div>
+            </div>
+          </a>
+        </li>
+  
+        <li class="ag-carousel_item">
+          <a href="#">
+            <figure class="ag-carousel_figure">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-19.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Duis leo
+              </div>
+              <div class="ag-carousel_doctor">
+                Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero
+              </div>
+            </div>
+          </a>
+        </li>
+  
+        <li class="ag-carousel_item">
+          <a href="#">
+            <figure class="ag-carousel_figure">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-20.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Donec vitae
+              </div>
+              <div class="ag-carousel_doctor">
+                Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="ag-carousel_item">
+          <a href="#">
+            <figure class="ag-carousel_figure">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-21.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Lorem ipsum
+              </div>
+              <div class="ag-carousel_doctor">
+                Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque
+              </div>
+            </div>
+          </a>
+        </li>
+  
+        <li class="ag-carousel_item">
+          <a href="#">
+            <figure class="ag-carousel_figure">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-22.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Aenean massa
+              </div>
+              <div class="ag-carousel_doctor">
+                Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet
+              </div>
+            </div>
+          </a>
+        </li>
+  
+        <li class="ag-carousel_item">
+          <a href="#">
+            <figure class="ag-carousel_figure">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-23.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Donec quam
+              </div>
+              <div class="ag-carousel_doctor">
+                Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus
+              </div>
+            </div>
+          </a>
+        </li>
+  
+        <li class="ag-carousel_item">
+          <a href="#">
+            <figure class="ag-carousel_figure">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-24.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Nulla consequat
+              </div>
+              <div class="ag-carousel_doctor">
+                Deras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus
+              </div>
+            </div>
+          </a>
+        </li>
+  
+        <li class="ag-carousel_item">
+          <a href="#">
+            <figure class="ag-carousel_figure">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-25.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Nullam dictum
+              </div>
+              <div class="ag-carousel_doctor">
+                Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo
+              </div>
+            </div>
+          </a>
+        </li>
+  
+        <li class="ag-carousel_item">
+          <a href="#">
+            <figure class="ag-carousel_figure">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-26.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Aliquam lorem
+              </div>
+              <div class="ag-carousel_doctor">
+                Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim
+              </div>
+            </div>
+          </a>
+        </li>
+  
+        <li class="ag-carousel_item">
+          <a href="#">
+            <figure class="ag-carousel_figure">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-27.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Etiam ultricies
+              </div>
+              <div class="ag-carousel_doctor">
+                Cum sociis natoque penatibus et magnis dis parturient montes
+              </div>
+            </div>
+          </a>
+        </li>
+  
+        <li class="ag-carousel_item">
+          <a href="#">
+            <figure class="ag-carousel_figure">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-28.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Nullam quis ante
+              </div>
+              <div class="ag-carousel_doctor">
+                Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue
+              </div>
+            </div>
+          </a>
+        </li>
+  
+        <li class="ag-carousel_item">
+          <a href="#">
+            <figure class="ag-carousel_figure">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-29.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Duis leo
+              </div>
+              <div class="ag-carousel_doctor">
+                Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero
+              </div>
+            </div>
+          </a>
+        </li>
+  
+        <li class="ag-carousel_item">
+          <a href="#">
+            <figure class="ag-carousel_figure">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-30.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Donec vitae
+              </div>
+              <div class="ag-carousel_doctor">
+                Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="ag-carousel_item">
+          <a href="#">
+            <figure class="ag-carousel_figure">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-31.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Lorem ipsum
+              </div>
+              <div class="ag-carousel_doctor">
+                Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque
+              </div>
+            </div>
+          </a>
+        </li>
+  
+        <li class="ag-carousel_item">
+          <a href="#">
+            <figure class="ag-carousel_figure">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-32.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Aenean massa
+              </div>
+              <div class="ag-carousel_doctor">
+                Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet
+              </div>
+            </div>
+          </a>
+        </li>
+  
+        <li class="ag-carousel_item">
+          <a href="#">
+            <figure class="ag-carousel_figure">
+              <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_images/char-33.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Donec quam
+              </div>
+              <div class="ag-carousel_doctor">
+                Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+    <symbol id="ag-arrow-left" viewBox="0 0 7 12">
+      <g>
+        <path d="M6 0.999512L1 5.99951L6 10.9995" fill="transparent" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </symbol>
+  
+    <symbol id="ag-arrow-right" viewBox="0 0 7 12">
+      <g>
+        <path d="M1 10.9995L6 5.99951L1 0.999512" fill="transparent" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </symbol>
+  </svg>
+  <script src="script.js"></script>
+</body>
+</html>

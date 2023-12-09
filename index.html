@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Rýmovanda 2</title>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/SochavaAG/example-mycode/master/_common/css/reset.css">
+    <link rel="stylesheet" href="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_plugins/slick/slick.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/1_plugins/slick/slick.min.js"></script>
+</head>
+<body>
+
+<div class="ag-carousel-block">
+  
+    <div class="ag-format-container">
+      <div class="ag-carousel-arrow_box">
+        <i class="js-ag-carousel-arrow_prev ag-carousel-arrow">
+          <svg class="svg-arrow-left">
+            <use xlink:href="#ag-arrow-left"></use>
+          </svg>
+        </i>
+  
+        <i class="js-ag-carousel-arrow_next ag-carousel-arrow">
+          <svg class="svg-arrow-right">
+            <use xlink:href="#ag-arrow-right"></use>
+          </svg>
+        </i>
+      </div>
+    </div>
+  
+    <div class="ag-carousel_box">
+      <ul id="js-carousel" class="js-carousel ag-carousel_list">
+  
+        <li class="ag-carousel_item">
+            <figure class="ag-carousel_figure">
+              <img src="otrusik.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Otrušík Švábelka
+              </div>
+              <div class="ag-carousel_doctor">
+                Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet
+              </div>
+              <div class="ag-button-container">
+                <button onclick="playSound('himl.m4a')">Himl</button>
+                <button>Button 2</button>
+                <button>Button 3</button>
+                <button>Button 4</button>
+                <button>Button 5</button>
+                <button>Button 6</button>
+            </div>
+            </div>
+        </li>
+  
+        <li class="ag-carousel_item">
+            <figure class="ag-carousel_figure">
+              <img src="wormy.png" class="ag-carousel_img" alt=""/>
+            </figure>
+  
+            <div class="ag-carousel_descr">
+              <div class="ag-carousel_name">
+                Ignác Žampohvíz
+              </div>
+              <div class="ag-carousel_doctor">
+                Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus
+              </div>
+            </div>
+        </li>
+  
+        <li class="ag-carousel_item">
+          <figure class="ag-carousel_figure">
+            <img src="otrusik.png" class="ag-carousel_img" alt=""/>
+          </figure>
+
+          <div class="ag-carousel_descr">
+            <div class="ag-carousel_name">
+              Otrušík Švábelka
+            </div>
+            <div class="ag-carousel_doctor">
+              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet
+            </div>
+          </div>
+      </li>
+
+      <li class="ag-carousel_item">
+          <figure class="ag-carousel_figure">
+            <img src="wormy.png" class="ag-carousel_img" alt=""/>
+          </figure>
+
+          <div class="ag-carousel_descr">
+            <div class="ag-carousel_name">
+              Ignác Žampohvíz
+            </div>
+            <div class="ag-carousel_doctor">
+              Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus
+            </div>
+          </div>
+      </li>
+
+      </ul>
+    </div>
+  </div>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+    <symbol id="ag-arrow-left" viewBox="0 0 7 12">
+      <g>
+        <path d="M6 0.999512L1 5.99951L6 10.9995" fill="transparent" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </symbol>
+  
+    <symbol id="ag-arrow-right" viewBox="0 0 7 12">
+      <g>
+        <path d="M1 10.9995L6 5.99951L1 0.999512" fill="transparent" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </symbol>
+  </svg>
+
+  <audio id="audio"></audio>
+  <script src="script.js"></script>
+
+</body>
+</html>
